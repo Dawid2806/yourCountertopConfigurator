@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <defs>
+    <linearGradient id="steel" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#cfd3d6"/>
+      <stop offset="50%" stop-color="#e1e4e6"/>
+      <stop offset="100%" stop-color="#c9cdd0"/>
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" fill="url(#steel)"/>
+  <!-- brushed lines -->
+  <g stroke="#b6babd" stroke-width="0.4" opacity="0.35">
+    <path d="M0 8 H256"/>
+    <path d="M0 12 H256"/>
+    <path d="M0 16 H256"/>
+    <path d="M0 20 H256"/>
+    <path d="M0 24 H256"/>
+    <path d="M0 28 H256"/>
+    <path d="M0 32 H256"/>
+    <path d="M0 36 H256"/>
+    <path d="M0 40 H256"/>
+    <path d="M0 44 H256"/>
+    <path d="M0 48 H256"/>
+    <path d="M0 52 H256"/>
+    <path d="M0 56 H256"/>
+    <path d="M0 60 H256"/>
+    <path d="M0 64 H256"/>
+    <path d="M0 68 H256"/>
+    <path d="M0 72 H256"/>
+    <path d="M0 76 H256"/>
+    <path d="M0 80 H256"/>
+    <path d="M0 84 H256"/>
+    <path d="M0 88 H256"/>
+    <path d="M0 92 H256"/>
+    <path d="M0 96 H256"/>
+    <path d="M0 100 H256"/>
+    <path d="M0 104 H256"/>
+    <path d="M0 108 H256"/>
+    <path d="M0 112 H256"/>
+    <path d="M0 116 H256"/>
+    <path d="M0 120 H256"/>
+    <path d="M0 124 H256"/>
+    <path d="M0 128 H256"/>
+    <path d="M0 132 H256"/>
+    <path d="M0 136 H256"/>
+    <path d="M0 140 H256"/>
+    <path d="M0 144 H256"/>
+    <path d="M0 148 H256"/>
+    <path d="M0 152 H256"/>
+    <path d="M0 156 H256"/>
+    <path d="M0 160 H256"/>
+    <path d="M0 164 H256"/>
+    <path d="M0 168 H256"/>
+    <path d="M0 172 H256"/>
+    <path d="M0 176 H256"/>
+    <path d="M0 180 H256"/>
+    <path d="M0 184 H256"/>
+    <path d="M0 188 H256"/>
+    <path d="M0 192 H256"/>
+    <path d="M0 196 H256"/>
+    <path d="M0 200 H256"/>
+    <path d="M0 204 H256"/>
+    <path d="M0 208 H256"/>
+    <path d="M0 212 H256"/>
+    <path d="M0 216 H256"/>
+    <path d="M0 220 H256"/>
+    <path d="M0 224 H256"/>
+    <path d="M0 228 H256"/>
+    <path d="M0 232 H256"/>
+    <path d="M0 236 H256"/>
+    <path d="M0 240 H256"/>
+    <path d="M0 244 H256"/>
+    <path d="M0 248 H256"/>
+  </g>
+</svg>
