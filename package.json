@@ -89,7 +89,7 @@
     "@tailwindcss/postcss": "^4",
     "tailwindcss": "^4",
     "eslint": "^9",
-    "eslint-config-next": "^14",
+    "eslint-config-next": "^15",
     "prettier": "^3",
     "vitest": "^2",
     "@testing-library/react": "^16",
