@@ -129,11 +129,11 @@ export const CanvasStage: React.FC = () => {
     });
   }, [draw]);
 
-  const drawGrid = (
+  function drawGrid(
     ctx: CanvasRenderingContext2D,
     width: number,
     height: number
-  ) => {
+  ) {
     ctx.strokeStyle = "#e5e7eb";
     ctx.lineWidth = 0.5;
 
@@ -164,15 +164,15 @@ export const CanvasStage: React.FC = () => {
       ctx.lineTo(endX, y);
       ctx.stroke();
     }
-  };
+  }
 
-  const drawCountertop = (ctx: CanvasRenderingContext2D) => {
+  function drawCountertop(ctx: CanvasRenderingContext2D) {
     if (design.segmentStyles && design.segmentStyles.length > 0) {
       drawSegmentedCountertop(ctx);
     } else {
       drawSingleColorCountertop(ctx);
     }
-  };
+  }
 
   const getFillForStyle = (
     ctx: CanvasRenderingContext2D,
@@ -287,7 +287,7 @@ export const CanvasStage: React.FC = () => {
     drawSegmentLabels(ctx, polygon, design);
   };
 
-  const drawCutouts = (ctx: CanvasRenderingContext2D) => {
+  function drawCutouts(ctx: CanvasRenderingContext2D) {
     const polygon = generatePolygon(
       design.layout,
       design.dimensions,
@@ -389,17 +389,17 @@ export const CanvasStage: React.FC = () => {
       ctx.fillText(cutout.name, centerX, centerY - 10);
       ctx.fillText(`${cutout.width}×${cutout.depth}`, centerX, centerY + 15);
     });
-  };
+  }
 
-  const drawDimensions = (ctx: CanvasRenderingContext2D) => {
+  function drawDimensions(ctx: CanvasRenderingContext2D) {
     const dimensionLines = generateDimensionLines(design);
 
     dimensionLines.forEach((line) => {
       drawDimensionLine(ctx, line, zoom);
     });
-  };
+  }
 
-  const drawValidationErrors = (ctx: CanvasRenderingContext2D) => {
+  function drawValidationErrors(ctx: CanvasRenderingContext2D) {
     validationErrors.forEach((error) => {
       if (!error.position) return;
 
@@ -417,7 +417,7 @@ export const CanvasStage: React.FC = () => {
       ctx.textBaseline = "middle";
       ctx.fillText("!", x, y);
     });
-  };
+  }
 
   const getMousePosition = (e: React.MouseEvent): { x: number; y: number } => {
     const canvas = canvasRef.current;
@@ -480,7 +480,7 @@ export const CanvasStage: React.FC = () => {
     return { 'S-LEN': { x: hx, y: hy, dir: 'h' as const } };
   };
 
-  const drawSegmentHandles = (ctx: CanvasRenderingContext2D) => {
+  function drawSegmentHandles(ctx: CanvasRenderingContext2D) {
     const handles = {
       ...getUSegmentHandlePositions(),
       ...getLSegmentHandlePositions(),
@@ -495,7 +495,7 @@ export const CanvasStage: React.FC = () => {
       ctx.fillStyle = hoveredSegmentHandle === id ? "#2563eb" : "#111827";
       ctx.fillRect(p.x - s / 2, p.y - s / 2, s, s);
     });
-  };
+  }
 
   const findCutoutAtPosition = (canvasPos: {
     x: number;
