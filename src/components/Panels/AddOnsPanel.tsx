@@ -104,7 +104,7 @@ export const AddOnsPanel: React.FC = () => {
             <div className="space-y-3">
               <div className="space-y-2">
                 <label className="block text-sm text-gray-600 mb-2">
-                  Przeciągnij na stół lub kliknij "Dodaj"
+                  Przeciągnij na stół lub kliknij &quot;Dodaj&quot;
                 </label>
 
                 <div className="space-y-2">

@@ -171,7 +171,7 @@ export const DividersPanel = () => {
       <div className="mt-4 p-3 bg-blue-50 rounded-lg">
         <p className="text-sm text-blue-700">
           💡 <strong>Wskazówka:</strong> Przeciągnij element na Canvas lub użyj
-          przycisków "Dodaj do" aby umieścić element dzielący na wybranym
+          przycisków &quot;Dodaj do&quot; aby umieścić element dzielący na wybranym
           segmencie.
         </p>
       </div>

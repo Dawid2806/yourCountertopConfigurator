@@ -90,7 +90,22 @@ export const CanvasStage: React.FC = () => {
     drawValidationErrors(ctx);
 
     ctx.restore();
-  }, [design, zoom, pan, hoveredCutoutId, hoveredSegmentHandle, validationErrors, units, showGrid]);
+  }, [
+    design,
+    zoom,
+    pan,
+    hoveredCutoutId,
+    hoveredSegmentHandle,
+    validationErrors,
+    units,
+    showGrid,
+    drawGrid,
+    drawCountertop,
+    drawCutouts,
+    drawDimensions,
+    drawSegmentHandles,
+    drawValidationErrors,
+  ]);
 
   // Throttled draw scheduling
   const rafIdRef = useRef<number | null>(null);

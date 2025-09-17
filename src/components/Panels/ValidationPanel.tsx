@@ -258,7 +258,7 @@ export const ValidationPanel: React.FC = () => {
           <ul className="text-xs text-blue-700 space-y-1">
             <li>• Otwory muszą być oddalone min. 3 cm od krawędzi</li>
             <li>• Otwory nie mogą się nakładać ani wykraczać poza blat</li>
-            <li>• Użyj przycisku "Napraw" dla automatycznej korekty</li>
+            <li>• Użyj przycisku &quot;Napraw&quot; dla automatycznej korekty</li>
             <li>
               • Przeciągnij otwory ręcznie dla precyzyjnego pozycjonowania
             </li>
